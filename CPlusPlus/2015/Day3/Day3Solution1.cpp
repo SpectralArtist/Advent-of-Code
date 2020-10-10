@@ -1,3 +1,8 @@
+// Programmer: Eli Card
+// Pseudonym: Spectral Artist
+// Date: July 23, 2020
+// File: Day3Solution1.cpp
+
 #include <iostream>
 #include <fstream>
 #include <tuple>
@@ -6,7 +11,7 @@
 #include <set>
 using namespace std;
 
-set<tuple<int, int>> convertToSet(vector< tuple<int, int> > v);
+set< tuple<int, int> > convertToSet(vector< tuple<int, int> > v);
 
 int main()
 {
@@ -77,7 +82,7 @@ int main()
     set<tuple<int, int>> coordSet2 = convertToSet(santaCoordArr2);
 
     cout << "Santa, without help, visits " << coordSet1.size() << " houses.\n";
-    cout << "Santa, with robot's help, visits " << coordSet2.size() << " houses.";
+    cout << "Santa, with robot's help, visits " << coordSet2.size() << " houses." << endl;
 }
 
 set<tuple<int, int>> convertToSet( vector< tuple<int, int> > v){

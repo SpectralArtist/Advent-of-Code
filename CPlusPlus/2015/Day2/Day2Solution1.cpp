@@ -1,3 +1,8 @@
+// Programmer: Eli Card
+// Pseudonym: Spectral Artist
+// Date: July 22, 2020
+// File: Day2Solution1.cpp
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -29,6 +34,6 @@ int main()
 
     }
 
-    cout << wrappingPaperAmt << "\n";
-    cout << ribbonAmt << "\n";
+    cout << wrappingPaperAmt << endl;
+    cout << ribbonAmt << endl;
 }

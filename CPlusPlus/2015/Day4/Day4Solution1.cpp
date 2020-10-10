@@ -1,3 +1,8 @@
+// Programmer: Eli Card
+// Pseudonym: Spectral Artist
+// Date: September 25, 2020
+// File: Day4Solution1.cpp
+
 #include <iostream>
 #include "md5.h"
 

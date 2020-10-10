@@ -1,3 +1,8 @@
+// Programmer: Eli Card
+// Pseudonym: Spectral Artist
+// Date: July 22, 2020
+// File: Day1Solution1.cpp
+
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -29,5 +34,5 @@ int main()
         }
     }
 
-    cout << "The final floor is " << count;
+    cout << "The final floor is " << count << endl;
 }
